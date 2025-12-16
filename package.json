@@ -1,0 +1,59 @@
+{
+  "name": "luma-frontend",
+  "packageManager": "pnpm@8.12.1",
+  "version": "0.1.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "dev": "nuxi dev",
+    "prod": "nuxi dev --prod",
+    "build": "nuxi build",
+    "preview": "nuxi preview",
+    "start": "node .output/server/index.mjs",
+    "generate": "nuxi generate",
+    "postinstall": "nuxi prepare",
+    "fmt": "prettier --write \"**/*.{js,ts,vue}\" --ignore-path .prettierignore",
+    "generate-api": "node -e \"fs.rmSync('./api',{recursive:true,force:true})\" && openapi-generator-cli generate --custom-generator=/Users/anoti/Documents/project/openapi-generator/modules/openapi-generator-cli/target/openapi-generator-cli.jar",
+    "test": "openapi-generator-cli version"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@element-plus/nuxt": "^1.0.9",
+    "@lumaai/luma-web": "^0.2.2",
+    "@pinia/nuxt": "^0.5.1",
+    "@unocss/nuxt": "^0.61.0",
+    "@vicons/ionicons5": "^0.12.0",
+    "@vicons/material": "^0.12.0",
+    "@vueuse/integrations": "^10.11.0",
+    "@vueuse/nuxt": "^10.11.0",
+    "dayjs": "^1.11.11",
+    "element-china-area-data": "^6.1.0",
+    "element-plus": "^2.7.5",
+    "jwt-decode": "^4.0.0",
+    "nprogress": "^0.2.0",
+    "nuxt": "^3.12.2",
+    "sass": "^1.77.5",
+    "three": "^0.165.0",
+    "typescript": "^5.4.5",
+    "vue-advanced-cropper": "^2.8.9"
+  },
+  "devDependencies": {
+    "@openapitools/openapi-generator-cli": "^2.13.4",
+    "@types/nprogress": "^0.2.3",
+    "@types/three": "^0.165.0",
+    "prettier": "^3.3.2"
+  },
+  "peerDependencies": {
+    "pinia": "^2.1.6"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "webpack",
+        "vite",
+        "vue"
+      ]
+    }
+  }
+}

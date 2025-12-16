@@ -59,21 +59,3 @@ This project is built with a lightweight, dependency-free approach to ensure max
 
 ---
 
-## 📂 Project Structure
-
-```text
-├── index.html          # Login and Entry point
-├── signup.html         # Registration page
-├── dashboard.html      # Main recommendation interface
-├── css/
-│   ├── style.css       # Global styles and layout resets
-│   ├── forms.css       # Specific styles for Login/Signup
-│   └── cards.css       # Styles for product recommendation cards
-├── js/
-│   ├── main.js         # Core logic for routing and DOM updates
-│   ├── api.js          # API service wrapper (Fetch calls)
-│   └── validation.js   # Form input validation logic
-└── assets/
-    ├── login in.jpg    # Screenshot asset
-    ├── sign up.jpg     # Screenshot asset
-    └── recommend.jpg   # Screenshot asset

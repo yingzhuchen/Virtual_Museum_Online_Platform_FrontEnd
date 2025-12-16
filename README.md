@@ -26,7 +26,7 @@ Turns a visual tour into an educational experience.
 - **Dynamic POIs:** Clicking on specific artifacts triggers an overlay card displaying historical context, metadata, and high-res imagery.
 - **3D Space Anchoring:** Info buttons remain fixed relative to the artifact as the user moves the camera.
 
-### 4. 🎧 Adaptive Spatial Audio (Ambience)png
+### 4. 🎧 Adaptive Spatial Audio (Ambience)
 Enhancing immersion through sound.
 - **Context-Aware Audio:** The background music and ambient sounds automatically fade and switch based on the current room (e.g., *Classical Orchestral* for the Renaissance Hall, *Nature Ambience* for the Fossil Exhibit).
 

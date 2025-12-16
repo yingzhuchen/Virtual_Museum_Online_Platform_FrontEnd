@@ -19,14 +19,14 @@ A seamless exploration experience designed for web performance.
 - **Teleportation Points:** Users can click on "Portals" within the 3D scene to instantly load and transition to different exhibition halls (scene switching).
 - **Free Roam:** Mouse/Touch controls to look around and move within the current scene.
 
-![Virtual Tour](tour.jpg)
+![Virtual Tour](tour.pngt
 
 ### 3. ℹ️ Interactive Info Hotspots
 Turns a visual tour into an educational experience.
 - **Dynamic POIs:** Clicking on specific artifacts triggers an overlay card displaying historical context, metadata, and high-res imagery.
 - **3D Space Anchoring:** Info buttons remain fixed relative to the artifact as the user moves the camera.
 
-### 4. 🎧 Adaptive Spatial Audio (Ambience)
+### 4. 🎧 Adaptive Spatial Audio (Ambience)png
 Enhancing immersion through sound.
 - **Context-Aware Audio:** The background music and ambient sounds automatically fade and switch based on the current room (e.g., *Classical Orchestral* for the Renaissance Hall, *Nature Ambience* for the Fossil Exhibit).
 
@@ -36,7 +36,7 @@ Enhancing immersion through sound.
 
 | Discovery Dashboard | Visit History |
 | :---: | :---: |
-| ![Homepage](homepage.jpg) | ![History](history.jpg) |
+| ![Homepage](homepage.png) | ![History](history.png) |
 
 ## 🛠️ Technical Highlights (Frontend)
 

@@ -19,7 +19,7 @@ A seamless exploration experience designed for web performance.
 - **Teleportation Points:** Users can click on "Portals" within the 3D scene to instantly load and transition to different exhibition halls (scene switching).
 - **Free Roam:** Mouse/Touch controls to look around and move within the current scene.
 
-![Virtual Tour](tour.pngt
+![Virtual Tour](tour.png)t
 
 ### 3. ℹ️ Interactive Info Hotspots
 Turns a visual tour into an educational experience.
